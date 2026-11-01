@@ -1,6 +1,6 @@
-# Search Starter
+# Demo Search Starter
 
-A starter project focused on search, built with Next.js.
+A Next.js Pixar movie search that sends typed queries to a Fuse.js API route and displays matching posters, titles, and years from bundled data.
 
 ## Use this template
 
@@ -10,7 +10,7 @@ npx create-next-app -e https://github.com/colbyfayock/demo-search-starter
 
 ## Local setup
 
-Install dependencies with npm and start the development server:
+Install dependencies with npm, then start the development server:
 
 ```bash
 npm install
@@ -19,5 +19,5 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-Use `npm run build` to build the project.
-Use `npm run start` to run the production build.
+Use `npm run build` to create a production build.
+After building, use `npm run start` to serve the production build.
